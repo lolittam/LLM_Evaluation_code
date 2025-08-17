@@ -22,7 +22,7 @@ Each dimension is subdivided into subdimensions, evaluated using structured prom
 ---
 
 ### **Description of Scripts**
-- **run_prompt_sets_.py**: Sends prompts from CSV files to specified LLM APIs and stores responses.  
+- **run_prompt_sets_.py**: Sends prompts of 1 specific dimension from CSV files to specified LLM APIs and stores responses.  
 - **run_scoring_sets_*.py**: Evaluate LLM responses for a given set of prompts. Works with both **Gemini** and **GPT** models.   
 - **icc_*.py**: Calculates inter-rater reliability and other evaluation metrics (ICC, Kappa, etc.) for the LLM evaluations.  
 
